@@ -1,0 +1,17 @@
+호출
+curl "https://openapi.naver.com/v1/search/movie.xml?query=%EC%A3%BC%EC%8B%9D&display=10&start=1&genre=1" \
+    -H "X-Naver-Client-Id: EvKKU6VVJsFaM4cVkCv" \
+    -H "X-Naver-Client-Secret: NeG6M7PJP4i" -v
+
+
+
+요청
+GET /v1/search/movie.xml?query=%EC%A3%BC%EC%8B%9D&display=10&start=1&genre=1 HTTP/1.1
+Host: openapi.naver.com
+User-Agent: curl/7.49.1
+Accept: */*
+X-Naver-Client-Id: EvKKU6VVJsFaM4cVkCv
+X-Naver-Client-Secret: NeG6M7PJP4i
+
+//Client ID : EvKKU6VVJsFaM4cVkCv
+//Client Secret : NeG6M7PJP4i
